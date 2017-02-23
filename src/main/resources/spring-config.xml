@@ -4,5 +4,5 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--id : bean 的唯一标识， class: 具体的实现类-->
-    <bean id="oneInterface" class="com.self.ddyoung.daily.interfaces.OneInterfaceImpl"/>
+    <bean id="oneInterface" class="com.self.ddyoung.daily.service.OneInterfaceServiceImpl"/>
 </beans>
