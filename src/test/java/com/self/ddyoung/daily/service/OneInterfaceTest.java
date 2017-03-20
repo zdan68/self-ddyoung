@@ -10,10 +10,13 @@ import javax.annotation.Resource;
  * @since 17/1/13 上午11:59
  */
 public class OneInterfaceTest extends AutoRollbackBaseTest {
-    @Resource
     private OneInterfaceService oneInterfaceService;
 
     public void testHello(){
         oneInterfaceService.hello("sanbian salaheiyo");
+    }
+
+    public void setOneInterfaceService(OneInterfaceService oneInterfaceService) {
+        this.oneInterfaceService = oneInterfaceService;
     }
 }

@@ -7,12 +7,12 @@ import org.springframework.test.AbstractDependencyInjectionSpringContextTests;
  * @version 1.0
  * @since 17/1/13 下午12:01
  */
-public class AutoRollbackBaseTest extends AbstractDependencyInjectionSpringContextTests {
+public class AutoRollbackBaseTest extends AbstractTransactionalDataSourceSpringContextTests {
 
     @Override
     protected String[] getConfigLocations() {
         String[] config = {
-                "classpath:/spring/test-spring-config.xml"
+                "classpath:/test-spring-config.xml"
         };
         return config;
     }
