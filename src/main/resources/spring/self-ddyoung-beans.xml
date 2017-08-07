@@ -8,4 +8,6 @@
     <bean id="oneInterface" class="com.self.ddyoung.daily.service.OneInterfaceServiceImpl"/>
 
     <bean id="chapter" class="com.self.ddyoung.daily.service.Chapter"/>
+
+    <bean id="producer" class="com.self.ddyoung.daily.service.Producer"/>
 </beans>

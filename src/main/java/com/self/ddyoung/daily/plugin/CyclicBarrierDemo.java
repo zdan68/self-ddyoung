@@ -1,14 +1,23 @@
 package com.self.ddyoung.daily.plugin;
 
 import java.util.concurrent.BrokenBarrierException;
-import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
-/**
+/**package com.self.ddyoung.daily.plugin;
+
+ import java.util.concurrent.BrokenBarrierException;
+ import java.util.concurrent.CyclicBarrier;
+ import java.util.concurrent.TimeUnit;
+ import java.util.concurrent.TimeoutException;
+ import java.util.concurrent.atomic.AtomicBoolean;
+ import java.util.concurrent.locks.Condition;
+ import java.util.concurrent.locks.ReentrantLock;
+
+ /**
  * @author <a href="mailto:sanbian@pamirs.top">Sanbian</a>
  * @version 1.0
  * @since 17/2/21 下午8:05
